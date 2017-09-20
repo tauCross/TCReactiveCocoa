@@ -12,6 +12,11 @@
 		53A218071F726A14004BEBA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53A218061F726A14004BEBA9 /* Assets.xcassets */; };
 		53A2180A1F726A14004BEBA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53A218081F726A14004BEBA9 /* Main.storyboard */; };
 		53A2180D1F726A14004BEBA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A2180C1F726A14004BEBA9 /* main.m */; };
+		53A218E61F726CE4004BEBA9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A218E51F726CE4004BEBA9 /* AppDelegate.m */; };
+		53A218E91F726CE4004BEBA9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A218E81F726CE4004BEBA9 /* ViewController.m */; };
+		53A218EB1F726CE4004BEBA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53A218EA1F726CE4004BEBA9 /* Assets.xcassets */; };
+		53A218EE1F726CE4004BEBA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53A218EC1F726CE4004BEBA9 /* Main.storyboard */; };
+		53A218F11F726CE4004BEBA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A218F01F726CE4004BEBA9 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -225,10 +230,27 @@
 		53A218DB1F726A1F004BEBA9 /* UITextField+RACSignalSupport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+RACSignalSupport.m"; sourceTree = "<group>"; };
 		53A218DC1F726A1F004BEBA9 /* UITextView+RACSignalSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextView+RACSignalSupport.h"; sourceTree = "<group>"; };
 		53A218DD1F726A1F004BEBA9 /* UITextView+RACSignalSupport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextView+RACSignalSupport.m"; sourceTree = "<group>"; };
+		53A218E21F726CE4004BEBA9 /* aaa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aaa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53A218E41F726CE4004BEBA9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		53A218E51F726CE4004BEBA9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		53A218E71F726CE4004BEBA9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		53A218E81F726CE4004BEBA9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		53A218EA1F726CE4004BEBA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53A218ED1F726CE4004BEBA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53A218EF1F726CE4004BEBA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53A218F01F726CE4004BEBA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		53A218F21F726CE4004BEBA9 /* aaa.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = aaa.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		53A217FA1F726A14004BEBA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53A218DF1F726CE4004BEBA9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -242,6 +264,7 @@
 			isa = PBXGroup;
 			children = (
 				53A217FF1F726A14004BEBA9 /* TCReactiveCocoa */,
+				53A218E31F726CE4004BEBA9 /* aaa */,
 				53A217FE1F726A14004BEBA9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -250,6 +273,7 @@
 			isa = PBXGroup;
 			children = (
 				53A217FD1F726A14004BEBA9 /* TCReactiveCocoa.app */,
+				53A218E21F726CE4004BEBA9 /* aaa.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -486,6 +510,22 @@
 			path = extobjc;
 			sourceTree = "<group>";
 		};
+		53A218E31F726CE4004BEBA9 /* aaa */ = {
+			isa = PBXGroup;
+			children = (
+				53A218E41F726CE4004BEBA9 /* AppDelegate.h */,
+				53A218E51F726CE4004BEBA9 /* AppDelegate.m */,
+				53A218E71F726CE4004BEBA9 /* ViewController.h */,
+				53A218E81F726CE4004BEBA9 /* ViewController.m */,
+				53A218EA1F726CE4004BEBA9 /* Assets.xcassets */,
+				53A218EC1F726CE4004BEBA9 /* Main.storyboard */,
+				53A218EF1F726CE4004BEBA9 /* Info.plist */,
+				53A218F01F726CE4004BEBA9 /* main.m */,
+				53A218F21F726CE4004BEBA9 /* aaa.entitlements */,
+			);
+			path = aaa;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -506,6 +546,23 @@
 			productReference = 53A217FD1F726A14004BEBA9 /* TCReactiveCocoa.app */;
 			productType = "com.apple.product-type.application";
 		};
+		53A218E11F726CE4004BEBA9 /* aaa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53A218F31F726CE4004BEBA9 /* Build configuration list for PBXNativeTarget "aaa" */;
+			buildPhases = (
+				53A218DE1F726CE4004BEBA9 /* Sources */,
+				53A218DF1F726CE4004BEBA9 /* Frameworks */,
+				53A218E01F726CE4004BEBA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = aaa;
+			productName = aaa;
+			productReference = 53A218E21F726CE4004BEBA9 /* aaa.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -516,6 +573,10 @@
 				ORGANIZATIONNAME = tc;
 				TargetAttributes = {
 					53A217FC1F726A14004BEBA9 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					53A218E11F726CE4004BEBA9 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
 					};
@@ -535,6 +596,7 @@
 			projectRoot = "";
 			targets = (
 				53A217FC1F726A14004BEBA9 /* TCReactiveCocoa */,
+				53A218E11F726CE4004BEBA9 /* aaa */,
 			);
 		};
 /* End PBXProject section */
@@ -546,6 +608,15 @@
 			files = (
 				53A218071F726A14004BEBA9 /* Assets.xcassets in Resources */,
 				53A2180A1F726A14004BEBA9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53A218E01F726CE4004BEBA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53A218EB1F726CE4004BEBA9 /* Assets.xcassets in Resources */,
+				53A218EE1F726CE4004BEBA9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -562,6 +633,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		53A218DE1F726CE4004BEBA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53A218E91F726CE4004BEBA9 /* ViewController.m in Sources */,
+				53A218F11F726CE4004BEBA9 /* main.m in Sources */,
+				53A218E61F726CE4004BEBA9 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -569,6 +650,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				53A218091F726A14004BEBA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		53A218EC1F726CE4004BEBA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53A218ED1F726CE4004BEBA9 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -707,6 +796,34 @@
 			};
 			name = Release;
 		};
+		53A218F41F726CE4004BEBA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = aaa/aaa.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = aaa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tc.aaa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		53A218F51F726CE4004BEBA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = aaa/aaa.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = aaa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tc.aaa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -724,6 +841,15 @@
 			buildConfigurations = (
 				53A218121F726A14004BEBA9 /* Debug */,
 				53A218131F726A14004BEBA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53A218F31F726CE4004BEBA9 /* Build configuration list for PBXNativeTarget "aaa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53A218F41F726CE4004BEBA9 /* Debug */,
+				53A218F51F726CE4004BEBA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "TCNimbusTableView"
-  s.version      = "0.0.2"
-  s.summary      = "A short description of TCNimbusTableView."
+  s.name         = "TCReactiveCocoa"
+  s.version      = "0.0.1"
+  s.summary      = "A short description of TCReactiveCocoa."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,10 +25,10 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-  aaa
+  aaaadfasadfasdfasdfsafd
                    DESC
 
-  s.homepage     = "https://github.com/tauCross/TCNimbusTableView"
+  s.homepage     = "https://github.com/tauCross/TCReactiveCocoa"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/tauCross/TCNimbusTableView.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/tauCross/TCReactiveCocoa.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "TCNimbusTableView/src/**/*.{h,m}"
+  s.source_files  = "TCReactiveCocoa/ReactiveCocoa/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
